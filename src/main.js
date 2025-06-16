@@ -1,10 +1,6 @@
-import { checkAge } from './ejercicio01';
 import { checkGrade } from './ejercicio02';
 import { checkGrowth } from './ejercicio03';
 import { checkMax } from './ejercicio04';
-
-//Ejercicio 1
-console.log(checkAge(17));
 
 //Ejercicio 2
 const studentInformation = {
