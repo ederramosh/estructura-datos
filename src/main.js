@@ -1,17 +1,6 @@
-import { checkGrade } from './ejercicio02';
 import { checkGrowth } from './ejercicio03';
 import { checkMax } from './ejercicio04';
 
-//Ejercicio 2
-const studentInformation = {
-  name: 'Eder Ramos',
-  id: 'er10040161',
-  test : 7.0,
-  homework : 8.0,
-  attendance : 9.0,
-  researchGrade : 10.,
-}
-checkGrade(studentInformation);
 
 //Ejercicio 3
 const employeeInformation = {

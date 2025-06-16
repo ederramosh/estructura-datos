@@ -22,13 +22,3 @@ document.getElementById("calcular-btn").addEventListener("click", () => {
   
   result.textContent = `${name} con carnet ${carne} tiene una notal final de ${finalGrade}`
 })
-/*
-export const checkGrade = (studentInformation) => {
-
-  const { name, id, test, homework, attendance, researchGrade } = studentInformation;
-  const finalGrade = (test * 0.20 ) + (homework * 0.40 ) + (attendance * 0.10 ) + (researchGrade * 0.30 );
-  console.log(`El alumno ${name} con carnet ${id} tiene como nota final: ${finalGrade}`);
-  
-}
-
-*/

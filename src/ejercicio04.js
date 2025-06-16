@@ -2,11 +2,17 @@
 EJERCICIO 4: Crear una función que en base a 2 números enteros que ingrese el usuario, 
 calcular cual número es el mayor y devolverlo.  
 */
+document.getElementById("calcular-btn").addEventListener("click", () => {
+    const primerNumero = parseInt(document.getElementById("primerNumero").value);
+    const segundoNumero = parseInt(document.getElementById("segundoNumero").value);
+    const result = document.getElementById("resultado");
+    let evaluation;
 
-export const checkMax = (a, b) => {
-    if( a >= b ) {
-        console.log(`El valor de ${a} es mayor que ${b}`);
+    if( primerNumero >= segundoNumero ) {
+        evaluation = `El valor de ${primerNumero} es mayor que ${segundoNumero}`;
     } else {
-        console.log(`El valor de ${b} es mayor que ${a}`);
+        evaluation = `El valor de ${segundoNumero} es mayor que ${primerNumero}`;
     }
-}
+
+    result.textContent = evaluation;
+});
